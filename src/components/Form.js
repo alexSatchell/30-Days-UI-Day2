@@ -99,7 +99,7 @@ const Form = () => {
       <PaymentDetailsTitle>Payment Details</PaymentDetailsTitle>
       <PaymentItemList />
       <AdditionalPaymentMethod>Add Payment Method</AdditionalPaymentMethod>
-      <EmailAddress type='email' placeholder='Email address' />
+      <EmailAddress type='email' placeholder='Email address' required='true' />
       <SubmitButton>Proceed to payment </SubmitButton>
     </FormContainer>
   );
